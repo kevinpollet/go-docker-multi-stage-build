@@ -4,6 +4,5 @@ COPY . .
 RUN go build -o /build/app .
 
 FROM gcr.io/distroless/static
-WORKDIR app
 COPY --from=builder /build/app .
-ENTRYPOINT [ "/app" ]
+ENTRYPOINT [ "./app" ]
