@@ -1,12 +1,10 @@
 name: build
-
 on: [push, pull_request]
-
 jobs:
   build:
     runs-on: ubuntu-18.04
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - run: docker build . -t app
       - run: docker run --rm app
