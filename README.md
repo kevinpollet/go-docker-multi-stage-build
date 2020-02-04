@@ -13,7 +13,9 @@ $ docker build . -t app
 
 ```shell
 $ docker run --rm app
-Hello, World!
+id: 5f486d85-0a0d-40d4-b21d-60ab94a415a9
+message: Hello, World!
+
 ```
 
 ## License
