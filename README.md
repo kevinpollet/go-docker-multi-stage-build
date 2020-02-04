@@ -20,6 +20,16 @@ message: Hello, World!
 
 ```
 
+## Contributing
+
+Contributions are welcome!
+
+Want to file a bug, request a feature or contribute some code?
+
+- Check out the [Code of Conduct](./CODE_OF_CONDUCT.md)
+- Check if there is an existing issue corresponding to your bug or feature
+- Open an issue to discuss your bug or new feature
+
 ## License
 
 [MIT](./LICENSE.md) © kevinpollet
