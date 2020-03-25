@@ -8,13 +8,14 @@ This repository shows how to build a Docker image for a [Go](https://go.dev/) ap
 ## Build image
 
 ```shell
-$ docker build . -t app
+docker build . -t app
 ```
 
 ## Run container
 
 ```shell
-$ docker run --rm app
+docker run --rm app
+
 id: 5f486d85-0a0d-40d4-b21d-60ab94a415a9
 message: Hello, World!
 
@@ -32,4 +33,4 @@ Want to file a bug, request a feature or contribute some code?
 
 ## License
 
-[MIT](./LICENSE.md) © kevinpollet
+[MIT](./LICENSE.md)
