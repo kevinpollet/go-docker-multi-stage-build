@@ -5,10 +5,10 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 COPY . .
-RUN go build -o /go/bin/app
+RUN go build -o /go/bin/greet ./cmd/greet/
 
 FROM alpine:3.14
-COPY --chown=65534:65534 --from=builder /go/bin/app .
+COPY --chown=65534:65534 --from=builder /go/bin/greet .
 USER 65534
 
-ENTRYPOINT [ "./app" ]
+ENTRYPOINT [ "./greet" ]
