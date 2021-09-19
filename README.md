@@ -18,7 +18,6 @@ docker run --rm app
 
 id: 5f486d85-0a0d-40d4-b21d-60ab94a415a9
 message: Hello, World!
-
 ```
 
 ## Contributing
